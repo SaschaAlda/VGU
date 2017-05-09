@@ -12,7 +12,7 @@ public class StringTesting {
 		String str2 = "abc";
 		String str3 = new String ("abc");
 		
-		assertTrue ( "str1 == str2" , str1 == str2 );
+		assertTrue ( "str1 == str2" , str1 == str2 ); 
 		assertFalse ( "str1 == str3" ,  str1 == str3 );
 		
 		assertTrue (  str1.equals(str3) );
